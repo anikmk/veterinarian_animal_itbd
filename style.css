@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* General CSS */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+button{
+	cursor: pointer;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+
+/* Header Area */
+header{
+	background: #191717;
+	padding: 20px 0;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.navigation{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	width: 15%;
+}
+.menu{
+	width: 80%;
+}
+.menu ul{
+	display: flex;
+	list-style: none;
+	justify-content: flex-end;
+}
+.menu ul li a{
+	color: #fff;
+	padding: 0 20px;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+/* home slider */
+.home-slider{
+	background-color: #FFC500;
+	padding: 120px 20px;
+	color: white;
+}
+.home-slider-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 100px;
+	
+}
+.slider-right{
+	width: 100%;
+}
+
+.slider-right img {
+	width: 100%;
+}
+.slider-left h1{
+	font-size: 60px;
+	line-height: 4.5rem;
+	margin-bottom: 20px;
+}
+.slider-left p {
+	font-size: 20px;
+	margin-bottom: 20px;
+
+}
+.slider-left .bg-btn{
+	background: black;
+	color: #fff;
+	border: none;
+	font-size: 18px;
+	padding: 20px 30px;
+	border-radius: 10px;
+	margin-right: 15px;
+	
+}
+.slider-left .outline-btn{
+	border: 2px solid white;
+	background-color: #FFC500;
+	color: #fff;
+	font-size: 18px;
+	padding: 20px 30px;
+	border-radius: 10px;
+	
+}
+
+/* Vet Area */
+
+.vet-area{
+	background: #FFFFFF;
+	padding: 100px 0;
+}
+.vet-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+	flex-flow: wrap;
+}
+.vet-left{
+	width: 50%;
+}
+.vet-left h2{
+	font-size: 50px;
+	color: #2D2E42;
+	line-height: 1.2em;
+	margin: 30px 0px;
+}
+.vet-left p{
+	font-size: 35px;
+	color: #2D2E42;
+	line-height: 1.2em;
+	margin-bottom: 30px;
+}
+.vet-left a{
+	background: #FFC500;
+	color: #fff;
+	text-transform: capitalize;
+	padding: 20px 30px;
+	border-radius: 10px;
+	display: inline-block;
+}
+.vet-right{
+	width: 45%;
+	position: relative;
+}
+.vet-right img{
+	width: 100%;
+}
+.vet-right::before{
+	content: '';
+	display: block;
+	width: 30px;
+	height: 200px;
+	background: #FFC500;
+	position: absolute;
+	bottom: 0;
+	left: -30px;
+}
+
+.vet-right::after{
+	content: '';
+	display: block;
+	width: 230px;
+	height: 30px;
+	background: #FFC500;
+	position: absolute;
+	bottom: -30px;
+	left: -30px;
+}
+/* title-section */
+.title-section {
+	background-color: #FFC500;
+	padding: 60px 0px;
+}
+.title-text {
+	margin: auto;
+	text-align: center;
+	padding: 10px 0px 50px 0px;
+	width: 45%;
+	color: white;
+
+}
+.title-text h1{
+	font-size: 45px;
+
+}
+.title-text p{
+	font-size: 18px;
+
+}
+.title-wrapper{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	color: white;
+	gap: 40px;
+	
+}
+.title-wrapper h2{
+	font-size: 25px;
+	margin: 15px 0px;
+}
+.title-wrapper p{
+	font-size: 20px;
+}
+/* buy animal here */
+.dollar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+.buynow{
+	padding: 16px 40px;
+	background-color: #191717;
+	border-radius: 50px;
+	border: none;
+	color: white;
+	font-size: 18px;
+	font-weight:500;
+
+}
+/* footer desing */
+footer {
+	background-color: black;
+	padding: 25px;
+	color: white;
+
+}
+.footer-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.footer-icon i {
+	font-size: 30px;
+	margin-right: 20px;
+
+}
+.footer-icon {
+	display: flex;
+}
