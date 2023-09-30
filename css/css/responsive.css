@@ -89,7 +89,10 @@
 		border-radius: 10px;
 		
 	}
-
+	.vet-left a{
+		font-size: 18px;
+		margin-left: 70px;
+	}
 	/* title section */
 	.title-section {
 		padding: 20px 0px;
